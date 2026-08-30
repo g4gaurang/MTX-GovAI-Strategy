@@ -484,14 +484,14 @@ function Closing() {
       <section className="closing-section" id="contact">
         <div className="container closing-grid">
           <div><p className="eyebrow">Start with the operating landscape</p><h2>Create an AI roadmap grounded in how your agency operates.</h2><p>Start with an agency, department, program portfolio, or selected group of applications. MTX will map the operating landscape, identify reusable AI services, prioritize workflow-level opportunities, and develop a practical path from initial pilots to enterprise adoption.</p></div>
-          <div className="closing-actions"><a className="button" href="mailto:enterprise-ai@mtxb2b.com">Request an AI Opportunity Workshop <ArrowRight /></a><a className="text-link" href="#method">Review the MTX Method <ChevronRight /></a></div>
+          <div className="closing-actions"><a className="button" href="#contact">Request an AI Opportunity Workshop <ArrowRight /></a><a className="text-link" href="#method">Review the MTX Method <ChevronRight /></a></div>
         </div>
       </section>
       <footer>
         <div className="container footer-grid">
           <div><span className="brand-mark">MTX</span><h3>Enterprise AI Strategy &amp; Activation</h3><p>A repeatable strategy-to-implementation service for government agencies.</p></div>
           <nav aria-label="Footer navigation">{navItems.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</nav>
-          <div><a href="mailto:enterprise-ai@mtxb2b.com">Contact MTX</a><p>© {new Date().getFullYear()} MTX Group</p></div>
+          <div><a href="#contact">Contact MTX</a><p>© {new Date().getFullYear()} MTX Group</p></div>
         </div>
         <div className="container disclaimer">Prototype content is provided for discussion purposes. Illustrative data and use cases would be validated against each agency’s policies, systems, data, and operating environment.</div>
       </footer>

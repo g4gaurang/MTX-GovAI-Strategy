@@ -40,4 +40,4 @@ To replace illustrative data, update the relevant typed arrays in `src/data/cont
 
 ## Contact link
 
-The workshop call to action uses the placeholder email `enterprise-ai@mtxb2b.com`. Update `contactLink` and the email links in `src/App.tsx` when an approved MTX contact destination is available.
+The workshop call to action uses the placeholder anchor `#contact`. Update `contactLink` and the closing contact links in `src/App.tsx` when an approved MTX contact destination is available.
